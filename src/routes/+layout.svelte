@@ -15,9 +15,9 @@
   <!-- Actions: только Home на любых страницах, кроме главной -->
   <div slot="actions">
     {#if $page.url.pathname !== '/'}
-      <button class="home-button" on:click={goHome}>
+      <!-- <button class="home-button" on:click={goHome}>
         Home
-      </button>
+      </button> -->
     {/if}
   </div>
 </Header>
